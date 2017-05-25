@@ -6,3 +6,6 @@ Functionality includes
 - Recognising when the game has been won
 - Changing board width according to difficulty
 - Changing square size according to difficulty
+
+# Author
+Laura Tiilikainen
