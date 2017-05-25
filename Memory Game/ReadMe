@@ -1,0 +1,8 @@
+A simple memory game with two difficulty settings: 8 pairs and 10 pairs
+
+Functionality includes
+- Flipping squares back and forth
+- Recognising matching pairs
+- Recognising when the game has been won
+- Changing board width according to difficulty
+- Changing square size according to difficulty
