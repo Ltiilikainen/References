@@ -7,7 +7,7 @@ Functionality includes
 - Changing board width according to difficulty
 - Changing square size according to difficulty
 
-View the game itself at https://cdn.rawgit.com/hellialara/References/486df7a1/Memory%20Game/memoryGame.html
+View the game itself at https://cdn.rawgit.com/hellialara/References/031d112a/Memory%20Game/memoryGame.html
 
 # Author
 Laura Tiilikainen
