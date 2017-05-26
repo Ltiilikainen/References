@@ -165,9 +165,13 @@ function draw()
       
       //add click recognisers to all squares
       squares[i].addEventListener("click",function()
+                                  {//ignore paired square
+                                  if(this.paired === true)
                                   {
-                                    //check if square has already been flipped
-                                    if(this.index === i1)
+                                    return;
+                                  }
+                                  //check if square has already been flipped
+                                  else if(this.index === i1)
                                     {
                                       //flip back around
                                       this.style.transform = "rotateY(0deg)";
@@ -200,7 +204,13 @@ function draw()
       
       squares[i].addEventListener("click",function()
                                   {
-                                    if(this.index === i1)
+                                    //ignore paired square
+                                    if(this.paired === true)
+                                    {
+                                      return;
+                                    }
+                                    //check if square has already been flipped
+                                    else if(this.index === i1)
                                     {
                                       this.style.transform = "rotateY(0deg)";
                                     
@@ -270,6 +280,10 @@ function check(colour, index)
       }
       else
       {
+        //recognise paired squares
+        squares[i1].paired = true;
+        squares[i2].paired = true;
+       
         //check for winning conditions
         if(winCheck() === true)
         {
