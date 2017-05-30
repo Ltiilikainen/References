@@ -1,0 +1,121 @@
+body
+{
+    background-color: rgb(3, 53, 89);
+    
+    font-family:'News Cycle';
+    color:rgb(3, 53, 89);
+    line-height:1.8;
+}
+
+.container
+{
+    background-color:rgb(113, 165, 221);
+    border-radius: 30px 30px 0 0;
+}
+
+.container .jumbotron
+{
+    margin-bottom:15px;
+    background-color:rgb(43, 94, 175);
+    
+    
+    font-family: 'Dancing Script';
+    font-weight:900;
+    font-size:50px;
+    color: rgb(255, 208, 81);
+    -webkit-text-stroke: 1px rgb(255, 140, 58);
+    -moz-text-stroke: 1px rgb(255, 140, 58);
+    -ms-text-stroke: 1px rgb(255, 140, 58);
+    -o-text-stroke: 1px rgb(255, 140, 58);
+    
+    padding: 35px 60px;
+    
+    border-radius:30px;
+    border: solid 2px rgb(43, 94, 175);
+}
+
+#header a, #footer a, #header a:visited, #footer a:visited
+{
+   font-family: 'Dancing Script';
+   font-size:18px;
+   color:rgb(3, 53, 89);
+   
+   transition:0.3s;
+}
+
+#header a:hover, #footer a:hover
+{
+    text-decoration:none;
+    color:rgb(255, 140, 58);
+}
+
+hr
+{
+    margin: 5px 0;
+    border: 0; 
+    height: 1px; 
+    background-image: -webkit-linear-gradient(left, rgb(255, 140, 58), rgb(255, 208, 81), rgb(255, 140, 58));
+    background-image: -moz-linear-gradient(left, rgb(255, 140, 58), rgb(255, 208, 81), rgb(255, 140, 58));
+    background-image: -ms-linear-gradient(left, rgb(255, 140, 58), rgb(255, 208, 81), rgb(255, 140, 58));
+    background-image: -o-linear-gradient(left, rgb(255, 140, 58), rgb(255, 208, 81), rgb(255, 140, 58));
+}
+
+.img-container
+{
+    margin:3px;
+    border:solid 8px rgba(43, 94, 175, 0.5);
+    border-radius:37px;
+}
+
+.img-thumbnail
+{
+    border-radius:30px;
+    
+    background-color:rgb(255, 208, 81);
+    border-color:rgb(255, 140, 58);
+}
+
+form
+{
+    width:80%;
+    margin: 0 auto;
+    
+    text-align:center;
+    font-family:'Dancing Script';
+    font-size:18px;
+}
+
+.form-group
+{
+    width: 60%;
+    margin: 4px auto;
+    
+    padding:3px;
+    background-color:rgba(255, 140, 58, 0.8);
+    border-radius:30px;
+}
+
+.btn-default
+{
+    margin-top:2px;
+    background-color: rgb(43, 94, 175);
+    color:rgb(255, 208, 81);
+    
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.btn-default:focus
+{
+    outline:none;
+}
+
+.btn-default:hover, .btn-default:active
+
+{
+    background-color:rgb(255, 140, 58);
+    color:rgb(255, 208, 81);
+}

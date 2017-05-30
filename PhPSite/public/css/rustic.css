@@ -1,0 +1,101 @@
+body
+{
+    background-color: rgb(249, 244, 234);
+    
+    font-family:'Archivo Narrow';
+    color:rgb(132, 108, 86);
+    line-height:1.8;
+}
+
+.container
+{
+    background-color:rgb(255, 251, 244);
+}
+
+.container .jumbotron
+{
+    margin-bottom:15px;
+    background-color: rgb(255, 251, 244);
+    
+    font-family: 'Source Code Pro';
+    font-weight:900;
+    font-size:30px;
+    
+    border-radius:0px;
+    border: solid 30px rgb(224, 199, 150);
+}
+
+#header a, #footer a, #header a:visited, #footer a:visited
+{
+   font-family: 'Source Code Pro'; 
+   color:rgb(132, 108, 86);
+}
+
+hr
+{
+    margin: 5px 0;
+    border: 0; 
+    height: 1px; 
+    background-image: -webkit-linear-gradient(left, rgb(224, 199, 150), rgb(132, 108, 86), rgb(224, 199, 150));
+    background-image: -moz-linear-gradient(left, rgb(224, 199, 150), rgb(132, 108, 86), rgb(224, 199, 150));
+    background-image: -ms-linear-gradient(left, rgb(224, 199, 150), rgb(132, 108, 86), rgb(224, 199, 150));
+    background-image: -o-linear-gradient(left, rgb(224, 199, 150), rgb(132, 108, 86), rgb(224, 199, 150));
+}
+
+.img-container
+{
+    margin:3px;
+    border:solid 5px rgb(224, 199, 150);
+}
+
+.img-thumbnail
+{
+    border-radius:0px;
+    
+    background-color:rgb(255, 251, 244);
+    border-color:rgb(132, 108, 86);
+}
+
+form
+{
+    width:80%;
+    margin: 0 auto;
+    
+    text-align:center;
+    font-family:'Source Code Pro';
+}
+
+.form-group
+{
+    width: 60%;
+    margin: 4px auto;
+    
+    padding:3px;
+    background-color:rgba(224, 199, 150, 0.3);
+}
+
+.btn-default
+{
+    margin-top:2px;
+    background-color: rgb(132, 108, 86);
+    color:rgb(255, 251, 244);
+    
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.btn-default:focus
+{
+    outline:none;
+}
+
+.btn-default:hover, .btn-default:active
+
+{
+    background-color:rgb(224, 199, 150);
+    color:rgb(132, 108, 86);
+}
+

@@ -1,0 +1,111 @@
+body
+{
+    background-image: -webkit-linear-gradient(top, rgb(67, 94, 87), rgb(20, 28, 24));
+    background-image: -moz-linear-gradient(top, rgb(67, 94, 87), rgb(20, 28, 24));
+    background-image: -ms-linear-gradient(top, rgb(67, 94, 87), rgb(20, 28, 24));
+    background-image: -o-linear-gradient(top, rgb(67, 94, 87), rgb(20, 28, 24));
+    
+    font-family:'Rajdhani';
+    color:rgb(67, 94, 87);
+    font-size:14px;
+    line-height:1.8;
+    min-height:100vh;
+}
+
+.container
+{
+    background-color:rgb(161, 224, 145);
+}
+
+.container .jumbotron
+{
+    margin-bottom:15px;
+    background-image: -webkit-linear-gradient(top, rgb(161, 224, 145), rgb(86, 183, 91));
+    background-image: -moz-linear-gradient(top, rgb(161, 224, 145), rgb(86, 183, 91));
+    background-image: -ms-linear-gradient(top, rgb(161, 224, 145), rgb(86, 183, 91));
+    background-image: -o-linear-gradient(top, rgb(161, 224, 145), rgb(86, 183, 91));
+    
+    font-family: 'Amatic SC';
+    font-weight:900;
+    font-size:60px;
+    letter-spacing:5px;
+    
+    border-radius:0px;
+    border: solid 30px rgb(88, 150, 95);
+}
+
+#header a, #footer a, #header a:visited, #footer a:visited
+{
+   font-family: 'Amatic SC';
+   letter-spacing: 2px;
+   font-size:16px;
+   color:rgb(67, 94, 87);
+}
+
+hr
+{
+    margin: 5px 0;
+    border: 0; 
+    height: 1px; 
+    background-image: -webkit-linear-gradient(left, rgb(88, 150, 95), rgb(67, 94, 87), rgb(88, 150, 95));
+    background-image: -moz-linear-gradient(left, rgb(88, 150, 95), rgb(67, 94, 87), rgb(88, 150, 95));
+    background-image: -ms-linear-gradient(left, rgb(88, 150, 95), rgb(67, 94, 87), rgb(88, 150, 95));
+    background-image: -o-linear-gradient(left, rgb(88, 150, 95), rgb(67, 94, 87), rgb(88, 150, 95));
+}
+
+.img-container
+{
+    margin:3px;
+    border:solid 5px rgb(88, 150, 95);
+}
+
+.img-thumbnail
+{
+    border-radius:0;
+    background-color:rgb(161, 224, 145);
+    border-color:rgb(20, 28, 24);
+}
+
+form
+{
+    width:80%;
+    margin: 0 auto;
+    
+    text-align:center;
+    font-family:'Amatic SC';
+    letter-spacing:4px;
+}
+
+.form-group
+{
+    width: 60%;
+    margin: 4px auto;
+    
+    padding:3px;
+    background-color:rgba(88, 150, 95, 0.3);
+}
+
+.btn-default
+{
+    margin-top:2px;
+    background-color: rgb(88, 150, 95);
+    color:rgb(161, 224, 145);
+    
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.btn-default:focus
+{
+    outline:none;
+}
+
+.btn-default:hover, .btn-default:active
+
+{
+    background-color:rgb(20, 28, 24);
+    color:rgb(67, 94, 87);
+}

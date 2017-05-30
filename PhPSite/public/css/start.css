@@ -1,0 +1,22 @@
+body
+{
+    min-height:100vh;
+    background-image: url(https://static.pexels.com/photos/271511/pexels-photo-271511.jpeg);
+    background-size: cover;
+}
+
+.container form
+{
+    margin-top:45%;
+}
+
+#start
+{
+    width: 90%;
+    display: inline-block;
+}
+
+btn
+{
+    display: inline-block;
+}
