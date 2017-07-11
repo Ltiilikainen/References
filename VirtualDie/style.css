@@ -1,0 +1,59 @@
+body
+{
+	background: rgb(50, 50, 50);
+}
+
+#container
+{
+	width: 80%;
+	text-align:center;
+	margin: auto;
+	padding-top: 10px; 
+}
+
+#multiplier
+{
+	margin: 2%;
+
+	width: 85px;
+	height: 85px;
+	border-radius: 30%;
+
+	background: rgb(70,70,70);
+
+	color: white;
+	text-align:center;
+	font-size: 2em;
+}
+
+#multiplier:focus
+{
+	outline: none;
+}
+
+p
+{
+	color: white;
+	font-size: 1.4em;
+}
+
+#resultSpan
+{
+	display: block;
+	margin: 2% auto 2% auto;
+
+	width: 85px;
+	height: 85px;
+	padding-top: 16px;
+	border-radius: 30%;
+	
+	background: white;
+
+	color: rgb(50, 50, 50);
+	font-size: 1.9em;
+}
+
+.btn-default:focus
+{
+	outline: none;
+}
